@@ -1,0 +1,70 @@
+[U] 126 pins in 44 copper groups reconstructed from h1420-chargen-U26-upper Gerbers
+[U] netlist vs schematic: IDENTICAL
+[U] structural simulation vs 8678, seed 0: 0 mismatches
+[U] structural simulation vs 8678, seed 1: 0 mismatches
+[U] structural simulation vs 8678, seed 2: 0 mismatches
+[U] RESULT: PASS
+[U] JLCPCB 2-layer DRC on h1420-chargen-U26-upper (6561x2091 px at 0.0125 mm)
+  ok   F_Cu min line aperture                    0.200 mm   (limit 0.127)
+  ok   F_Cu copper thinner than 0.127 (area)     0.000 mm   (limit 0.0)
+  ok   B_Cu min line aperture                    0.200 mm   (limit 0.127)
+  ok   B_Cu copper thinner than 0.127 (area)     0.000 mm   (limit 0.0)
+  ok   copper clearance between nets             0.194 mm   (limit 0.127)
+  ok   hole edge to other-net copper             0.336 mm   (limit 0.254)
+  ok   smallest drill                            0.300 mm   (limit 0.3)
+  ok   annular ring (all holes, both layers)     0.138 mm   (limit 0.13)
+  ok   via outer diameter                        0.576 mm   (limit 0.5)
+  ok   hole to hole (edge to edge)               0.503 mm   (limit 0.5)
+  ok   hole edge to board edge                   0.888 mm   (limit 0.5)
+  ok   F_Cu copper to board edge                 0.562 mm   (limit 0.3)
+  ok   F_Cu copper outside outline (px)          0.000 mm   (limit 0.0)
+  ok   B_Cu copper to board edge                 0.363 mm   (limit 0.3)
+  ok   B_Cu copper outside outline (px)          0.000 mm   (limit 0.0)
+  ok   F_Mask mask bridges < 0.20 mm (count)     0.000 mm   (limit 0.0)
+  ok   B_Mask mask bridges < 0.20 mm (count)     0.000 mm   (limit 0.0)
+  ok   F_Silkscreen min line aperture            0.160 mm   (limit 0.153)
+  ok   F_Silkscreen features thinner than 0.153 (area)    0.000 mm   (limit 0.0)
+  ok   F_Silkscreen over mask openings (area)    0.000 mm   (limit 0.0)
+  ok   F_Silkscreen to board edge                0.588 mm   (limit 0.3)
+  ok   F_Silkscreen outside outline (px)         0.000 mm   (limit 0.0)
+  ok   B_Silkscreen min line aperture            0.160 mm   (limit 0.153)
+  ok   B_Silkscreen features thinner than 0.153 (area)    0.000 mm   (limit 0.0)
+  ok   B_Silkscreen over mask openings (area)    0.000 mm   (limit 0.0)
+  ok   B_Silkscreen to board edge                0.913 mm   (limit 0.3)
+  ok   B_Silkscreen outside outline (px)         0.000 mm   (limit 0.0)
+[U] DRC RESULT: PASS
+[L] 126 pins in 44 copper groups reconstructed from h1420-chargen-U25-lower Gerbers
+[L] netlist vs schematic: IDENTICAL
+[L] structural simulation vs 8678, seed 0: 0 mismatches
+[L] structural simulation vs 8678, seed 1: 0 mismatches
+[L] structural simulation vs 8678, seed 2: 0 mismatches
+[L] RESULT: PASS
+[L] JLCPCB 2-layer DRC on h1420-chargen-U25-lower (6561x2091 px at 0.0125 mm)
+  ok   F_Cu min line aperture                    0.200 mm   (limit 0.127)
+  ok   F_Cu copper thinner than 0.127 (area)     0.000 mm   (limit 0.0)
+  ok   B_Cu min line aperture                    0.200 mm   (limit 0.127)
+  ok   B_Cu copper thinner than 0.127 (area)     0.000 mm   (limit 0.0)
+  ok   copper clearance between nets             0.190 mm   (limit 0.127)
+  ok   hole edge to other-net copper             0.340 mm   (limit 0.254)
+  ok   smallest drill                            0.300 mm   (limit 0.3)
+  ok   annular ring (all holes, both layers)     0.138 mm   (limit 0.13)
+  ok   via outer diameter                        0.576 mm   (limit 0.5)
+  ok   hole to hole (edge to edge)               0.616 mm   (limit 0.5)
+  ok   hole edge to board edge                   0.875 mm   (limit 0.5)
+  ok   F_Cu copper to board edge                 0.413 mm   (limit 0.3)
+  ok   F_Cu copper outside outline (px)          0.000 mm   (limit 0.0)
+  ok   B_Cu copper to board edge                 0.375 mm   (limit 0.3)
+  ok   B_Cu copper outside outline (px)          0.000 mm   (limit 0.0)
+  ok   F_Mask mask bridges < 0.20 mm (count)     0.000 mm   (limit 0.0)
+  ok   B_Mask mask bridges < 0.20 mm (count)     0.000 mm   (limit 0.0)
+  ok   F_Silkscreen min line aperture            0.160 mm   (limit 0.153)
+  ok   F_Silkscreen features thinner than 0.153 (area)    0.000 mm   (limit 0.0)
+  ok   F_Silkscreen over mask openings (area)    0.000 mm   (limit 0.0)
+  ok   F_Silkscreen to board edge                0.575 mm   (limit 0.3)
+  ok   F_Silkscreen outside outline (px)         0.000 mm   (limit 0.0)
+  ok   B_Silkscreen min line aperture            0.160 mm   (limit 0.153)
+  ok   B_Silkscreen features thinner than 0.153 (area)    0.000 mm   (limit 0.0)
+  ok   B_Silkscreen over mask openings (area)    0.000 mm   (limit 0.0)
+  ok   B_Silkscreen to board edge                0.913 mm   (limit 0.3)
+  ok   B_Silkscreen outside outline (px)         0.000 mm   (limit 0.0)
+[L] DRC RESULT: PASS

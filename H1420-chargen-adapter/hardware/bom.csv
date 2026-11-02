@@ -1,0 +1,11 @@
+Ref,Qty per adapter,Value / part,Package,Suggested MPN,Notes
+U1,1,74HCT373 octal transparent latch (TTL-compatible inputs),SOIC-20 wide (7.5 mm body),"Nexperia 74HCT373D,653 or TI SN74HCT373DW","Must be HCT, not HC: the terminal drives it with 74LS levels"
+U2,1,74HCT161 4-bit synchronous counter,SOIC-16 narrow (3.9 mm body),"TI SN74HCT161D / Nexperia 74HCT161D,653 / TI CD74HCT161M","Must be HCT; Mouser / DigiKey"
+U3,1,74HCT166 8-bit PISO shift register,SOIC-16 narrow (3.9 mm body),"TI SN74HCT166D / Nexperia 74HCT166D,653 / TI CD74HCT166M","Must be HCT; Mouser / DigiKey"
+U4,1,74HCT125 quad tri-state buffer,SOIC-14 narrow,"Nexperia 74HCT125D,653 or TI SN74HCT125D","Must be HCT. Fit 74HCT126D instead only if the dump of your chip shows it outputs with pin 12 = 1 (see README)"
+U5,1,AT28C64B-15PU 8 KB parallel EEPROM,DIP-28 600 mil,Microchip AT28C64B-15PU (TME in stock),"27C64 / 27C256 / 27C512 also fit; image is built for all of them"
+U5 socket,1,DIP-28 IC socket 600 mil,2.54 mm pitch,"any 28-pin 15.24 mm socket, precision (turned-pin) preferred",
+P1,2,8-pin single-row round machined pin header (male),2.54 mm pitch; pin dia ~0.5 mm; length >= 3 mm below the plastic,"e.g. Preci-Dip 800-10-008-10-001000, Mill-Max 350-10-108-00-006000, or a 'precision pin header' strip cut to 8","These are the plug pins; they must be round (machined) pins so they fit the original socket without damaging it"
+C1-C5,5,100 nF 50 V X7R,0805,any,
+R1-R3,3,1 kOhm 1%,0805,any,
+PCB,1,h1420-chargen-U26-upper or -U25-lower,2-layer 1.6 mm,JLCPCB (min 5 pcs),"one zip per variant"
