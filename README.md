@@ -4,7 +4,7 @@ Everything needed to keep the logic board of a Hazeltine 1420 video terminal (19
 custom chips fail: plug-in replacements for the two proprietary character-generator ROMs, and copies
 of the firmware for the CPU and its two program ROMs.
 
-<img width="4284" height="5712" alt="IMG_2180" src="https://github.com/user-attachments/assets/2f0eb445-a4fb-42e3-b0c2-e83f8c50eeb1" />
+![Hazeltine 1420 logic board after restoration](images/terminal-board-overview.jpg)
 
 *The restored board. In the centre-left, the two green character-generator adapters sit in the
 original U25/U26 sockets; below them the firmware ROMs U10 and U11, and the CPU U19.*
