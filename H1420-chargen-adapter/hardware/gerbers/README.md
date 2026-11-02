@@ -1,5 +1,7 @@
 # Gerbers
 
+![Boards as delivered by JLCPCB, bare and assembled](../../../images/boards-as-delivered.jpg)
+
 Upload each zip to JLCPCB exactly as it is (no renaming, no unpacking):
 
 | Zip | Board |

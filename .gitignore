@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+H1420-chargen-adapter/source/gerber_U/
+H1420-chargen-adapter/source/gerber_L/
+H1420-chargen-adapter/source/*.zip
+H1420-chargen-adapter/source/*.kicad_pcb
+H1420-chargen-adapter/source/*.png
+H1420-chargen-adapter/source/*.pkl
+H1420-chargen-adapter/source/*.log
+.DS_Store

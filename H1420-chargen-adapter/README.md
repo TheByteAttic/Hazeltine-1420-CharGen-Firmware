@@ -5,7 +5,10 @@ video terminal (DM8678 and DM86S64 at sockets U25 / U26), built from parts that 
 
 Copyright (c) 2026 by The Byte Attic B.V.
 
-![U26-upper adapter, top side](hardware/images/render-U26-upper-top.png)
+![The two assembled adapters](../images/adapters-top.jpg)
+
+*The two adapters, EEPROM side. These are revision A boards (the small jumper pads near the plug);
+revision B, in this repository, has that wiring in copper and no jumpers. Everything else is identical.*
 
 ## Why
 
@@ -25,7 +28,7 @@ they still work. The terminal does not know the difference.
 | [`hardware/`](hardware/) | Gerbers ready for JLCPCB, KiCad boards, schematic, bill of materials, renders |
 | [`font/`](font/) | Arduino sketch that dumps the original chips, the dumps of one terminal, the EEPROM images and the script that builds them |
 | [`source/`](source/) | The Python toolchain that designed, routed, exported and verified the boards |
-| [`docs/`](docs/) | Verification report of the manufacturing files |
+| [`docs/`](docs/) | Verification report of the manufacturing files, and the DM8678 / DM86S64 data sheets |
 
 ## Quick start
 
@@ -82,6 +85,10 @@ control symbols, the two EEPROMs are swapped.
 
 ## Assembly
 
+![Bottom side of the assembled adapters](../images/adapters-bottom.jpg)
+
+*Bottom side: U1-U4 (SOIC) and the decoupling capacitors; the machined plug pins point down.*
+
 * Bottom side first: U1-U4 (watch the pin-1 dots on the silkscreen; U1 is rotated 180 degrees
   relative to the others on purpose), then C1-C4. 1.27 mm SOIC, drag-solderable.
 * Top side: the DIP-28 socket (notch as drawn), C5, R1-R3, then the two 8-pin round machined pin
@@ -91,6 +98,8 @@ control symbols, the two EEPROMs are swapped.
 * Insert the programmed EEPROM, notch towards the socket's notch marking.
 
 ## Installation
+
+![Adapters installed in U25 and U26](../images/adapters-installed-angle.jpg)
 
 The plug goes in with its pin 1 (square pad, marked "1") at the socket's notch end, i.e. the left
 end, bottom row. The board then lies over the socket and extends to the left. The neck is 14 mm

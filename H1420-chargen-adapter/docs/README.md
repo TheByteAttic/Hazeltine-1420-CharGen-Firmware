@@ -1,5 +1,11 @@
 # Docs
 
+| File | What it is |
+|------|-----------|
+| `verification-report.txt` | raw output of the final checks on the rev B manufacturing files (see below) |
+| `DM8678 Datasheet.pdf` | National Semiconductor DM8678 character generator data sheet |
+| `DM86S64 1980_Memory_Data_Book.pdf` | the DM86S64 pages from National's 1980 Memory Data Book |
+
 `verification-report.txt` is the raw output of the final checks run on the revision B manufacturing
 files in `../hardware/gerbers/`, for both boards:
 
@@ -10,6 +16,5 @@ files in `../hardware/gerbers/`, for both boards:
 * `drc.py`: JLCPCB 2-layer design rules measured on the rasterised Gerbers, every rule listed with the
   measured value and the limit (PASS on both boards).
 
-The reference manual of the terminal (Hazeltine HI-1079, "1420 Video Display Terminal Reference
-Manual", 1979) is on bitsavers.org under pdf/hazeltine/Hazeltine_1420/; the DM8678 and DM86S64 data
-sheets are in National Semiconductor's 1980-81 data books, also on bitsavers.
+The terminal's reference manual (Hazeltine HI-1079, 1979) and its firmware are in
+`../../H1420-Bitsavers-firmware/`.
